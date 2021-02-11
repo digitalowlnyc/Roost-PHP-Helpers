@@ -1,0 +1,30 @@
+{
+  "name": "roost/php-helpers",
+  "description": "PHP helper classes",
+  "authors": [
+    {
+      "name": "Blue Nest",
+      "email": "packages@bnest.co"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Roost\\Helpers\\": "src"
+    },
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+  ],
+  "extra": {
+  }
+}
