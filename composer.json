@@ -7,14 +7,16 @@
       "email": "packages@bnest.co"
     }
   ],
-  "require": {
-  },
   "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "roost/phpunit-helpers": "1.0.1"
   },
   "autoload": {
     "psr-4": {
       "Roost\\Helpers\\": "src"
     },
+    "classmap": [
+    ],
     "files": [
     ]
   },
