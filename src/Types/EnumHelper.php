@@ -18,6 +18,10 @@ class EnumHelper
 		return static::compareEnum($val, $options, $caseSensitive, false);
 	}
 
+	public static function toEnum($val, array $options, $caseSensitive = false) {
+		return static::check($val, $options, $caseSensitive);
+	}
+
 	public static function compareEnum($val, array $options, $caseSensitive = false, $returnOriginalValue = false) {
 		foreach($options as $option) {
 			if(!$caseSensitive) {
