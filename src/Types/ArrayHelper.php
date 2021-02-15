@@ -64,4 +64,8 @@ class ArrayHelper
 
 		return $result;
 	}
+
+	public static function filter($arr, $callback) {
+		return array_filter($arr, $callback, ARRAY_FILTER_USE_BOTH);
+	}
 }
