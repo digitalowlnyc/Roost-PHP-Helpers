@@ -13,6 +13,9 @@ trait SupportsSingletonTrait
 {
 	private static $singleton = null;
 
+	/**
+	 * @return static
+	 */
 	public static function use() {
 		if(static::$singleton === null) {
 			static::$singleton = new static();
